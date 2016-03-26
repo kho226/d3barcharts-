@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset = "utf-8">
+<head>
+  <title> Code Challenge </title>
+  <link rel = "stylesheet" type = "text/css" media = "" href = "css/styles.css">
+  <script type = "text/javascript" src = "js/helper_functions.js"></script>
+  <script type = "text/javascript" src = "js/data.js"></script>
+  <script type = "text/javascript" src = "//d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div>
+      <h1> Login Character Freqency Bar Graph </h1>
+      <h2>Github API Webapp using jQuery and D3</h2>
+      <p> Enter a Github Username and watch the bars rise! </p>
+
+
+      <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+
+      <a href="#" id="ghsubmitbtn">User Search</a>
+      <div id="ghapidata" class="clearfix"></div>
+    </div>
+  <div class = "chart-container">
+    <svg class = "chart">
+    </svg>
+  </div>
+  <script type = "text/javascript" src = '/js/search.js'></script>
+  <script type = 'text/javascript' src = '/js/d3.js'></script>
+
+</body>
+</html>

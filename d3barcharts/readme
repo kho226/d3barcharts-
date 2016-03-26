@@ -1,0 +1,4 @@
+ -> cd to the directory
+ -> python -m SimpleHTTPServer desiredPort
+ -> localhost:desiredPort in your browser of choice
+ -> feedback is always welcome!
