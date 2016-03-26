@@ -1,5 +1,5 @@
  -> this is a webapp that pulls data from the github web api and displays the fequency of the letters of the alphabet that appear in the first five instances of username logins
  -> cd to the directory
- -> python -m SimpleHTTPServer desiredPort
- -> localhost:desiredPort in your browser of choice
+ -> python -m SimpleHTTPServer 'desiredPort'
+ -> localhost:'desiredPort in your browser of choice
  -> feedback is always welcome!
